@@ -1,0 +1,191 @@
+
+/**
+* use dark purle
+* color primary : #7b1876
+* color secondary : #a00e54
+* color secondary hover: #c50c5d;
+*/
+
+* {
+padding: 0;
+margin: 0;
+}
+
+body {
+    font-family: roboto;
+    font-size: 16px;
+/*    background: #eef1f2 ;*/
+}
+h2 {
+    font-size: 60px;
+    font-weight: 400;
+    color: #7b1876;
+}
+h4 {
+    font-size: 34px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.87);
+}
+h5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.87);
+}
+h6 {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.87);
+}
+nav.navbar {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    background: #7b1876 !important;
+}
+.header-title {
+    margin-top: 56px;
+}
+.header-title p {
+    font-size: 34px;
+    font-weight: 300;
+    color: #7b1876;
+}
+.product-list h4 {
+    color: #7b1876;
+    display: inline-block;
+    margin-right: 0.6rem;
+}
+.product-list h4 button {
+    color: #fff !important;
+    background-color: #c50c5d;
+    border-radius: 18px;
+    border: none;
+    padding-left: 12px;
+    padding-right: 16px;
+}
+.product-list h4 button:hover {
+    background-color: #a00e54;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.38);
+}
+/* CSS card  */
+.card {
+    transition: 0.2s;
+    border-radius: 18px;
+    overflow: hidden;
+}
+.card:hover, .card:focus, .card:active {
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.20);
+}
+.card:hover span.price, 
+.card:focus span.price, 
+.card:active span.price {
+    background-color: #a00e54;
+}
+.card-img-top {
+    height: 199px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+span.price {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    background-color: #c50c5d;
+    padding: 4px 12px;
+    border-radius: 18px;
+    transition: 0.2s;
+}
+/* End CSS card  */
+
+footer {
+    background-color: #5d0d66;
+    box-shadow: 0px -2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+footer p {
+    font-size: 12px;
+    color: rgba(255,255,255,0.64);
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+/* CSS form-add */
+.card-add {
+    background-color: #7b1876;
+    color: #fff;
+    /* border-radius: 18px; */
+}
+.card-add input.form-control {
+    background-color: #ffffff4d;
+    border: none;
+    border-radius:18px;
+    color : #fff;
+}
+
+.card-add input.form-control::-webkit-input-placeholder { /* Edge */
+    color: #ffffff;
+}
+
+.card-add input.form-control:-ms-input-placeholder { /* Internet Explorer */
+    color: #ffffff;
+}
+
+.card-add input.form-control::placeholder {
+    color: #ffffff;
+}
+
+.card-add button {
+    background-color: #c50c5d;
+    border-radius: 18px;
+}
+.card-add button:hover,
+.card-add button:focus,
+.card-add button:active {
+    background-color: #a00e54;
+}
+
+/* End CSS form-add */
+
+@media screen and (max-width: 600px){
+    h2 {
+        font-size: 2.6rem;
+    }
+    .header-title p {
+        font-size: 1.6rem;
+    }
+}
+
+/* start CSS blue dark theme */
+body {
+    background: #eef1f2 ;
+}
+
+h2,
+.header-title p , 
+.product-list h4 {
+    color: #003366;
+}
+nav.navbar {
+    background-color: #003366!important;
+}
+.product-list h4 button {
+    background-color:  #003366;
+}
+.product-list h4 button:hover {
+    background-color: #1d4d86;
+}
+.card-add {
+    background-color: #003366;
+}
+.card-add button {
+    background-color: #dc406c;
+}
+span.price {
+    background-color: #dc406c;
+}
+.card:hover span.price, 
+.card:focus span.price, 
+.card:active span.price {
+    background-color: #1d4d86;
+}
+footer {
+    background-color: #003366;
+}
+/* end CSS blue dark theme */

@@ -1,0 +1,23 @@
+extends layout
+
+block content
+
+  .form-add.pb-5
+    .container
+      .row
+        .col-12.col-sm-6.col-lg-4.mx-auto
+          form(action='/add-product', method='POST')
+            .form-group
+              label(for='product_name') Tên sản phẩm
+              input#product_name.form-control(type='text', name='product_name', placeholder='Nhập tên sản phẩm')
+              small.text-muted Help text
+            .form-group
+              label(for='product_price') Giá
+              input#product_price.form-control(type='text', name='product_price', placeholder='Nhập tên sản phẩm')
+              small.text-muted Help text
+            .form-group
+              label(for='image') Hình ảnh
+              input#image.form-control(type='text', name='image', placeholder='Nhập tên sản phẩm')
+              small.text-muted Help text
+            button.btn.btn-primary.btn-block(type='submit', name='') THÊM
+          // end form-add

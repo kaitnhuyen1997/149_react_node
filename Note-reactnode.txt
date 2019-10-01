@@ -1,0 +1,17 @@
+Tao ung dung fullstack voi Reactjs & Nodejs
+
+Su dung CSDL postgreSQL de luu tru du lieu 
+    const pool = new Pool({
+        user: 'postgres',
+        host: 'localhost',
+        database: 'product',
+        password: 'postgres',
+        port: 5432,
+    })
+
+Cau truc du lieu
+    product_info
+        id
+        product_name
+        product_price
+        image
